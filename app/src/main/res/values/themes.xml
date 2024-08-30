@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CalculatorUhuy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CalculatorUhuy" parent="Base.Theme.CalculatorUhuy" />
+    <style name="ButtonNumber">
+        <item name="cornerRadius">20dp</item> <!-- Half of width/height -->
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">40sp</item> <!-- Use sp instead of dp for text size -->
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="elevation">10dp</item>
+    </style>
+
+    <style name="ButtonOperator">
+        <item name="cornerRadius">36dp</item> <!-- Half of width/height -->
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:textSize">40sp</item> <!-- Use sp instead of dp for text size -->
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ButtonDefine">
+        <item name="cornerRadius">36dp</item> <!-- Half of width/height -->
+        <item name="android:layout_width">154dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:textSize">40sp</item> <!-- Use sp instead of dp for text size -->
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>
